@@ -1,0 +1,58 @@
+<!-- category bar-->
+<div  class="container-fluid">
+    <div class="conatiner d-flex">
+        <div style="padding: 10px;">
+            <a (click)="filter('')">
+                <img src="https://i.postimg.cc/qvP11C17/allproducts.jpg" height="100px" width="100px">
+                <h6>All Products</h6>
+            </a>
+        </div>
+            <div style="padding: 10px;">
+                <a (click)="filter('2')">
+                    <img src="https://i.postimg.cc/KjG7Wb30/fashion.jpg" height="100px" width="100px">
+                    <h6>Fashion</h6>
+                </a>
+            </div>
+            <div style="padding: 10px;">
+                <a (click)="filter('1')">
+                    <img src="https://i.postimg.cc/yxGmWw5N/electronics.jpg" height="100px" width="100px">
+                    <h6>Electronics</h6>
+                </a>
+            </div>
+            <div style="padding: 10px;">
+                <a (click)="filter('3')">
+                    <img src="https://i.postimg.cc/mD2CjLWD/jewel.jpg" height="100px" width="100px">
+                    <h6>Jewellery</h6>
+                </a>
+            </div>
+                
+    </div>
+</div>
+<!-- Section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            
+            <div *ngFor= "let products of filtercategory | filter:searchkey:'ProductName'"  class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img style="height:300px"class="card-img-top" src="{{products.productimage}} " alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{products.ProductName}}</h5>
+                            <!-- Product price-->
+                            {{products.price}}Rs
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="products/viewproduct/{{products.id}}">View options</a></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>

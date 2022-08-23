@@ -1,0 +1,107 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "ProductName": "Casual shirt",
+      "categoryid": 2,
+      "description": "Color Block Men Hooded Neck Red, Black T-Shirt",
+      "price": 900,
+      "is_available": "yes",
+      "productimage": "https://i.postimg.cc/htZBvM45/original-imafdfvvr8hqdu65.webp",
+      "rating": 4.2,
+      "vendor_name": "Helmount",
+      "warranty": 2
+    },
+    {
+      "id": 4,
+      "ProductName": "Jewellery",
+      "categoryid": 3,
+      "description": "Bone Gold-plated Jewel Set  (Multicolor)",
+      "price": 1100,
+      "is_available": "yes",
+      "productimage": "https://i.postimg.cc/CKnW1gQR/702-necklace-ring-set-bhagyshree-original-imagg8gfhygzb5ez.webp",
+      "rating": 4.2,
+      "vendor_name": "Bhagyasree",
+      "warranty": 2
+    },
+    {
+      "id": 5,
+      "ProductName": "Jewellery",
+      "categoryid": 3,
+      "description": "Stone studded Earings",
+      "price": 400,
+      "is_available": "yes",
+      "productimage": "https://i.postimg.cc/1ttMtctJ/earings.jpg",
+      "rating": 4.2,
+      "vendor_name": "kalyan",
+      "warranty": 2
+    },
+    {
+      "id": 7,
+      "ProductName": "Women Clothing",
+      "categoryid": 2,
+      "description": "MAX Women Embroidered Short Sleeves V-neck Top",
+      "price": 690,
+      "is_available": "yes",
+      "productimage": "https://i.postimg.cc/jj3vWx5z/womendress.jpg",
+      "rating": 4.2,
+      "vendor_name": "Max",
+      "warranty": 2
+    },
+    {
+      "id": 8,
+      "ProductName": "Mobile",
+      "categoryid": 1,
+      "description": "iphone",
+      "price": 600,
+      "is_available": "yes",
+      "productimage": "https://i.postimg.cc/Vvv8qLBm/iphone.jpg",
+      "rating": 4.2,
+      "vendor_name": "kalyan",
+      "warranty": 2
+    }
+  ],
+  "signinusers": [
+    {
+      "username": "Ashique",
+      "email": "ashique@gmail.com",
+      "password": "12345",
+      "mobile": 9890099910
+    },
+    {
+      "id": 1,
+      "username": "anu",
+      "email": "aque@gmail.com",
+      "password": "1235",
+      "mobile": 9890099910
+    },
+    {
+      "id": 234,
+      "username": "anu",
+      "email": "aque@gmail.com",
+      "password": "1235",
+      "mobile": 9890099910
+    },
+    {
+      "id": 235,
+      "username": "dsfljdsn",
+      "email": "jbkjnewfo",
+      "password": "ihbvkqefu;",
+      "mobile": "bkub;jkn"
+    },
+    {
+      "id": 236,
+      "username": "rishi",
+      "email": "rishi@gmail.com",
+      "password": "mkm123",
+      "mobile": "9033390045"
+    },
+    {
+      "id": 237,
+      "username": "ebin",
+      "email": "ebin@gmail.com",
+      "password": "12345",
+      "mobile": "9033390045"
+    }
+  ]
+}
