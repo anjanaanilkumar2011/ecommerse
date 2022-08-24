@@ -35,4 +35,10 @@ search = new BehaviorSubject("")
    const baseURL="http://localhost:3000/signinusers/"
    return this.httpClient.post(baseURL,signinusers)
   }
+  loginusers(logindata:any){
+    console.log(logindata);
+    const baseURL="http://localhost:3000/signinusers/"
+    return this.httpClient.get(baseURL,logindata)
+   }
+
 }

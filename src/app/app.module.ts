@@ -6,20 +6,22 @@ import { AppComponent } from './app.component';
 import { SiteLayoutModule } from './site-layout/site-layout.module';
 import {HttpClientModule} from '@angular/common/http';
 import { CustomersigninComponent } from './login/customersignin/customersignin.component';
-import { ReactiveFormsModule } from '@angular/forms';
-//import { CustomerloginComponent } from './login/customersignin/customerloginin.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CustomerloginComponent } from './login/customerlogin/customerlogin.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CustomersigninComponent
+    CustomersigninComponent,
+    CustomerloginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     SiteLayoutModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
